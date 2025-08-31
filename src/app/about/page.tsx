@@ -54,6 +54,7 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
+      transition={{ type: "spring", stiffness: 100 }}
       {...cardHover}
     >
       <FaGraduationCap className="h-8 w-8 text-primary mb-4" />
