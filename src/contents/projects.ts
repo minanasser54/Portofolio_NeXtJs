@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: 'Data analysis and ML modeling to predict employee attrition using IBM HR dataset.',
     technologies: ['Python', 'ML', 'Clustering', 'Preprocessing'],
     githubLink: 'https://github.com/minanasser54/IBM-Employee-Attrition',
-    demoLink: null,
+    demoLink: '',
     image: '/projects/IBM-Employee-Attrition.png',
   },
   {
@@ -15,7 +15,7 @@ export const projects: Project[] = [
     description: 'Generate captions for images using pretrained CNN and LSTM with attention.',
     technologies: ['Python', 'EfficientNet (CNN)', 'LSTM', 'Soft Attention'],
     githubLink: 'https://github.com/minanasser54/Image_Captioning',
-    demoLink: null,
+    demoLink: '',
     image: '/projects/image-captioning.jpeg',
   },
   {
@@ -23,7 +23,7 @@ export const projects: Project[] = [
     description: 'GUI tool for dataset preprocessing with scalers, pipelines, oversampling.',
     technologies: ['Python', 'scikit-learn', 'GUI'],
     githubLink: 'https://github.com/minanasser54/Data_PreProcessor',
-    demoLink: null,
+    demoLink: '',
     image: '/projects/data-preprocessor.png',
   },
   {
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     description: 'Streamlit app using ML classification to predict probability of heart disease.',
     technologies: ['Python', 'Streamlit', 'Classification', 'K-Means'],
     githubLink: 'https://github.com/minanasser54/Heart_Disease_Project',
-    demoLink: null,
+    demoLink: '',
     image: '/projects/heart-disease.png',
   },
   {
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     description: 'Distributed inventory management marketplace built with Django, REST API, threading.',
     technologies: ['Python', 'Django', 'REST API', 'JavaScript'],
     githubLink: 'https://github.com/minanasser54/FlipFlow',
-    demoLink: null,
+    demoLink: '',
     image: '/projects/flipflow.png',
   },
   {
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     description: 'CLI & GUI tool in C++ for editing, converting, and checking XML consistency.',
     technologies: ['C++', 'Data Structures', 'CLI', 'GUI'],
     githubLink: 'https://github.com/minanasser54/XMLVisualizer',
-    demoLink: null,
+    demoLink: '',
     image: '/projects/xml-visualizer.png',
   },
   {
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     description: 'Java-based course management system using JavaFX and OOP principles.',
     technologies: ['Java', 'JavaFX', 'OOP', 'Exception Handling'],
     githubLink: 'https://github.com/minanasser54/EDUFLEXA_java_edu_system',
-    demoLink: null,
+    demoLink: '',
     image: '/projects/eduflexa.png',
   },
   {
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     description: 'Embedded project interfacing ARM Cortex-M4 with GPS module to display distance.',
     technologies: ['C', 'Embedded Systems', 'ARM Cortex-M4'],
     githubLink: 'https://github.com/minanasser54/ARM_M4_GPS',
-    demoLink: null,
+    demoLink: '',
     image: '/projects/arm-m4-gps.png',
   },
   // Add more repos similarly as needed...

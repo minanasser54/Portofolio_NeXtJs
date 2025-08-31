@@ -54,8 +54,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      transition={{ type: "spring", stiffness: 100 }}
-      {...cardHover}
     >
       <FaGraduationCap className="h-8 w-8 text-primary mb-4" />
       <h3 className="text-xl font-semibold mb-2">AI & Machine Learning</h3>
@@ -71,7 +69,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHover}
     >
       <FaCode className="h-8 w-8 text-primary mb-4" />
       <h3 className="text-xl font-semibold mb-2">Programming</h3>
@@ -87,7 +84,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHover}
     >
       <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
       <h3 className="text-xl font-semibold mb-2">Tools & Other</h3>
@@ -103,7 +99,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHover}
     >
       <FaLanguage className="h-8 w-8 text-primary mb-4" />
       <h3 className="text-xl font-semibold mb-2">Languages</h3>
@@ -118,7 +113,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHover}
     >
       <FaUsers className="h-8 w-8 text-primary mb-4" />
       <h3 className="text-xl font-semibold mb-2">Soft Skills</h3>
@@ -154,7 +148,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHoverSmall}
     >
       <h3 className="text-xl font-semibold mb-2">Digital Egypt Pioneers Initiative (DEPI) – Generative AI Track</h3>
       <p className="text-primary mb-2">June 2025 – December 2025</p>
@@ -168,7 +161,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHoverSmall}
     >
       <h3 className="text-xl font-semibold mb-2">Sprints – Machine Learning Training</h3>
       <p className="text-primary mb-2">July 2025</p>
@@ -182,7 +174,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHoverSmall}
     >
       <h3 className="text-xl font-semibold mb-2">Udemy – Machine Learning Course</h3>
       <p className="text-primary mb-2">December 2024</p>
@@ -196,7 +187,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHoverSmall}
     >
       <h3 className="text-xl font-semibold mb-2">Neurotech Platform</h3>
       <p className="text-primary mb-2">2024 – 2025</p>
@@ -228,7 +218,6 @@ export default function About() {
     <motion.div 
       className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
       variants={fadeInUp}
-      {...cardHoverSmall}
     >
       <h3 className="text-xl font-semibold mb-2">
         Faculty of Engineering – Ain Shams University, Cairo
