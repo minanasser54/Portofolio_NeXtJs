@@ -109,13 +109,13 @@ export default function Hero() {
           transition={{ delay: 0.7 }}
         >
           <Link
-            href="/projects"
+            href="#projects"
             className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
           >
             View Projects
           </Link>
           <Link
-            href="/contact"
+            href="#contact"
             className="inline-block w-full md:w-auto bg-gray-500 text-gray-800 dark:text-white px-8 py-3 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
           >
             Contact Me
