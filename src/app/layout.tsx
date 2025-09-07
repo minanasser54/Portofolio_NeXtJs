@@ -5,6 +5,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Script from "next/script";
+import About from "./components/about";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

@@ -15,7 +15,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
 
 export default function Contact() {
   return (
-    <div className="container max-w-7xl mx-auto py-12">
+    <div  id="contact" className="container max-w-7xl mx-auto py-12">
       <motion.h1 
         className="text-4xl font-bold mb-8 text-center"
         {...fadeInUp}
@@ -26,7 +26,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-center">
           <motion.div {...fadeInUp}>
             <p className="text-secondary text-center">
-              I&apos;m always open to meaningful discussions and collaborations on innovative projects, groundbreaking research, or transformative products. As a Computer Engineer and Software Developer with a strong focus on Artificial Intelligence, I specialize in leveraging modern technologies such as Retrieval-Augmented Generation (RAG), intelligent agents, Large Language Models (LLMs), Natural Language Processing (NLP), Computer Vision, and Machine Learning to design and implement smart, efficient, and scalable solutions. I&apos;m passionate about exploring the intersection of cutting-edge AI and practical software systems to solve complex challenges, build next-generation applications, and contribute to impactful digital transformations. Whether it&apos;s creating robust backend systems, experimenting with novel AI architectures, or developing intelligent user-centric applications, I&apos;m eager to collaborate with visionary teams and bring ambitious ideas to life
+              I'm currently open to new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hello, feel free to reach out!
             </p>
           </motion.div>
           
