@@ -26,7 +26,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-center">
           <motion.div {...fadeInUp}>
             <p className="text-secondary text-center">
-              I'm currently open to new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hello, feel free to reach out!
+              I&apos;m currently open to new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hello, feel free to reach out!
             </p>
           </motion.div>
           
